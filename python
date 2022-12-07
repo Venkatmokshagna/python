@@ -1,0 +1,28 @@
+num = int(input("number : "))
+if num > 1:
+    for i in range(2,num):
+        if (num % i) == 0:
+            print(num, "is a composite number")
+            break
+        else:
+            print(num, "is a Prime number")
+elif num ==0 :
+    print(num, "is a neither prime NOR composite number")
+else:
+    print(num, "it is a Composite number")
+
+
+if num > 0:
+    print(num,"is a Positive number")
+elif num == 0:
+    print("zero")
+else:
+    print(num,"is a Negative number")
+
+
+if (num % 2) == 0:
+    print(num,"is Even".format(num))
+else:
+    print(num,"is Odd".format(num))
+    
+
